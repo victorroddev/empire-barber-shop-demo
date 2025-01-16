@@ -22,6 +22,8 @@ This project has been created with the intention of be a showcase of the work of
 * **development:** To Developing of the site, pre production branch.
 * **bugfix/name-issue:** To resolve bugs.
 
+![branch-conventions](/branch.png)
+
 ## Work Flow
 1. Making a copy of main on development branch.
 2. Work on development branch.
