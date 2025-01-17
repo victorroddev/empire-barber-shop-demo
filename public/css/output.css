@@ -554,7 +554,33 @@ video {
   display: none;
 }
 
-.bg-red-900 {
+.h-\[100px\] {
+  height: 100px;
+}
+
+.w-\[100px\] {
+  width: 100px;
+}
+
+.bg-primaryYellow {
   --tw-bg-opacity: 1;
-  background-color: rgb(127 29 29 / var(--tw-bg-opacity, 1));
+  background-color: rgba(221, 143, 25, var(--tw-bg-opacity, 1));
+}
+
+.font-empire {
+  font-family: Roboto Slab;
+}
+
+.text-6xl {
+  font-size: 3.75rem;
+  line-height: 1;
+}
+
+.font-black {
+  font-weight: 900;
+}
+
+.text-primaryYellow {
+  --tw-text-opacity: 1;
+  color: rgba(221, 143, 25, var(--tw-text-opacity, 1));
 }
