@@ -744,6 +744,6 @@ video {
 
 @media (min-width: 768px) {
   .md\:bg-hero-desktop {
-    background-image: url('/public/img/hero-desktop.png');
+    background-image: url('./img/hero-desktop.png');
   }
 }
