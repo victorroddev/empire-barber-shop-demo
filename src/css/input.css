@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/*Components*/
+.nav-item {
+    @apply font-noto font-bold text-primaryWhite text-2xl hidden md:flex ;
+}
+
+.menu-item {
+    @apply font-noto font-bold text-primaryWhite text-2xl;
+}
+
+.menu-active {
+    @apply transition-all duration-700 ease-in-out
+}
