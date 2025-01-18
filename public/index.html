@@ -14,30 +14,30 @@
 <body class="bg-primaryGray">
     <!--Hero Section-->
     <div class="flex flex-col relative w-full md:bg-hero-desktop bg-hero-mobile bg-no-repeat bg-cover bg-fixed h-screen">
-        <div class="absolute inset-0 bg-primaryBlack opacity-80 z-1 transform transition-all duration-700 ease-in-out"></div>
+        <div class="absolute inset-0 bg-primaryBlack opacity-80 z-1 animate-fade-in"></div>
         <!--Navbar-->
         <div class="border rounded-2xl border-primaryYellow w-[95%] max-w-[1278px] mt-5 mx-auto z-10" id="navbar">
             <div class="flex flex-row justify-between items-center w-[95%] mx-auto">
-                <a href="" class="nav-item">Nosotros</a>
-                <a href="" class="nav-item">Servicios</a>
-                <a href="" class="nav-item">Precios</a>
+                <a href="" class="nav-item" id="about-index">Nosotros</a>
+                <a href="" class="nav-item"id="services-index">Servicios</a>
+                <a href="" class="nav-item" id="prices-index">Precios</a>
                 <a href="" >
-                    <img src="/public/img/EMPIRE LOGO 2.svg" alt="Logo Empire">
+                    <img src="/public/img/EMPIRE LOGO 2.svg" alt="Logo Empire" class="">
                 </a>
-                <a href="" class="nav-item">Citas</a>
-                <a href="" class="nav-item">Ubicación</a>
-                <a href="" class="nav-item">Contacto</a>
+                <a href="" class="nav-item" id="apointments-index">Citas</a>
+                <a href="" class="nav-item" id="location-index">Ubicación</a>
+                <a href="" class="nav-item" id="contact-index">Contacto</a>
                 <div class="" id="menu-icon">
-                    <img src="/public/img/Menu.svg" id="menu-icon" alt="menu icon" class="cursor-pointer">
+                    <img src="/public/img/Menu.svg" id="menu-icon" alt="menu icon" class="cursor-pointer md:hidden">
                 </div>
             </div>
         </div>
         <!--End Navbar-->
         <!--Mobile Menu-->
-        <div class="flex flex-col bg-primaryGray w-full z-10 mt-5 rounded-2xl hidden " id="menu">
+        <div class="flex flex-col bg-primaryGray w-full z-10 mt-5 rounded-2xl hidden animate-fade-in" id="menu">
             <div class="flex flex-row justify-center rounded-2xl bg-primaryYellow w-[95%] mx-auto items-center h-20">
                 <div>
-                    <img src="/public/img/Close.svg" alt="close icon" id="close-icon">
+                    <img src="/public/img/Close.svg" alt="close icon" id="close-icon" class="cursor-pointer">
                 </div>
             </div>
             <div class="flex flex-col items-center mt-20 gap-8 mb-20">
