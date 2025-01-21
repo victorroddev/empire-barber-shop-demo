@@ -647,6 +647,10 @@ video {
   margin-top: 1.5rem;
 }
 
+.mt-fixing {
+  margin-top: 10rem;  
+}
+
 .mt-72 {
   margin-top: 18rem;
 }
