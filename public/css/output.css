@@ -692,6 +692,10 @@ video {
   height: 100vh;
 }
 
+.h-fixing {
+  height: 520px;
+}
+
 .w-\[100\%\] {
   width: 100%;
 }
