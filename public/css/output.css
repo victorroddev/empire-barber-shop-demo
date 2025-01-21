@@ -881,7 +881,7 @@ video {
 }
 
 .bg-hero-mobile {
-  background-image: url('/public/img/hero-mobile-large .png');
+  background-image: url('../img/hero-mobile-large .png');
 }
 
 .from-primaryGrayStart {
@@ -1345,11 +1345,11 @@ video {
   }
 
   .md\:bg-contact-desktop {
-    background-image: url('/public/img/contact-desktop.png');
+    background-image: url('../img/contact-desktop.png');
   }
 
   .md\:bg-hero-desktop {
-    background-image: url('/public/img/hero-desktop.png');
+    background-image: url('../img/hero-desktop.png');
   }
 }
 
