@@ -869,7 +869,7 @@ video {
 }
 
 .bg-contact-mobile {
-  background-image: url('/public/img/contact-bg-mobile.png');
+  background-image: url('../public/img/contact-bg-mobile.png');
 }
 
 .bg-gradient-to-b {
