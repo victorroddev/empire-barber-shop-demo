@@ -869,7 +869,7 @@ video {
 }
 
 .bg-contact-mobile {
-  background-image: url('../public/img/contact-bg-mobile.png');
+  background-image: url('../img/contact-bg-mobile.png');
 }
 
 .bg-gradient-to-b {
@@ -881,7 +881,7 @@ video {
 }
 
 .bg-hero-mobile {
-  background-image: url('../public/img/hero-mobile-large .png');
+  background-image: url('../img/hero-mobile-large .png');
 }
 
 .from-primaryGrayStart {
